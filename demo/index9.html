@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>fullscreen-image-3d-effect的demo</title>
+    <script src="http://g.tbcdn.cn/kissy/k/1.4.1/seed-min.js" charset="utf-8"></script>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style_common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style10.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="more">
+            <ul>
+                <li><a href="index.html">Demo 1</a></li>
+                <li><a href="index2.html">Demo 2</a></li>
+                <li><a href="index3.html">Demo 3</a></li>
+                <li><a href="index4.html">Demo 4</a></li>
+                <li><a href="index5.html">Demo 5</a></li>
+                <li><a href="index6.html">Demo 6</a></li>
+                <li><a href="index7.html">Demo 7</a></li>
+                <li><a href="index8.html">Demo 8</a></li>
+                <li class="selected"><a href="index9.html">Demo 9</a></li>
+                <li><a href="index10.html">Demo 10</a></li>
+            </ul>
+        </div>
+	    <div class="main">
+	        <div class="view view-tenth">
+	            <img src="http://gtms01.alicdn.com/tps/i1/TB1EGJrGXXXXXcIXVXXzKkNQpXX-300-200.png" />
+	            <div class="mask"></div>
+	            <div class="content">
+	                <h2>小标题</h2>
+	                <p>毛主席万岁毛主席万岁毛主席万岁毛主席万岁毛主席万岁毛主席万岁毛主席万岁毛主席万岁毛主席万岁</p>
+	                <a href="#" class="info">详情</a>
+	            </div>
+	        </div>
+	        
+	        
+	    </div>
+	</div>
+
+<script>
+    var S = KISSY;
+	S.config({
+		packages:[
+			{
+				name:"pi",
+				path:'../../',
+				charset:"utf-8",
+				ignorePackageNameInUri:true,
+				debug: true
+			}
+		]
+	});
+    S.use('pi/fullscreen-image-3d-effect/index', function (S, FullscreenImage3dEffect) {
+         var fi = new FullscreenImage3dEffect();
+    });
+</script>
+</body>
+</html>
